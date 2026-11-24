@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/testgitub3',
+  basePath: '/testgitub4',
   trailingSlash: true,
   images: {
     unoptimized: true,
