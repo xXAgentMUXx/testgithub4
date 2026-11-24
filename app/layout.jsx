@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <body style={{ fontFamily: 'Georgia, serif', margin: 0 }}>{children}
-        <script src="/testgithub4/public/beup-form-connector.js" defer data-beup-endpoint="https://shamanistic-keely-mincingly.ngrok-free.dev/api/public/site-integrations/beup_pub_bgw-6qG5YhZz_7AyeeHBemdpsKYTmGp4/submit"/>
+        <script src="/testgithub4/beup-form-connector.js" defer data-beup-endpoint="https://shamanistic-keely-mincingly.ngrok-free.dev/api/public/site-integrations/beup_pub_bgw-6qG5YhZz_7AyeeHBemdpsKYTmGp4/submit"/>
       </body>
     </html>
   );
