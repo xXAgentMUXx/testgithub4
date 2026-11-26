@@ -1,3 +1,4 @@
+import BeupChatbotScript from 'next/script';
 export const metadata = {
   title: "Atelier Garrigue (Next.js) – site d'exemple",
   description: "Site d'exemple pour tester l'installation automatique du formulaire BEUP via GitHub."
@@ -9,7 +10,10 @@ export default function RootLayout({ children }) {
       <body style={{ fontFamily: 'Georgia, serif', margin: 0 }}>{children}
       
         <script src="/testgithub4/beup-form-connector.js" defer data-beup-endpoint="https://shamanistic-keely-mincingly.ngrok-free.dev/api/public/site-integrations/beup_pub_bgw-6qG5YhZz_7AyeeHBemdpsKYTmGp4/submit" />
-      </body>
+      {/* BEUP_CHATBOT_START */}
+<BeupChatbotScript src="https://shamanistic-keely-mincingly.ngrok-free.dev/site-chatbot-loader.js?key=beup_pub_bgw-6qG5YhZz_7AyeeHBemdpsKYTmGp4" data-color="#3657e8" strategy="afterInteractive" />
+{/* BEUP_CHATBOT_END */}
+</body>
     </html>
   );
 }
